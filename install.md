@@ -1,4 +1,6 @@
-curl -LO https://groovetransformer.github.io/assets/zip/VST3SourceCode.zip
+## Setting up the RaspberryPI
+Get the VST3Sourcecode (or copy it from this GIT):  
+```curl -LO https://groovetransformer.github.io/assets/zip/VST3SourceCode.zip```
 sudo apt install cmake libxrandr-dev libasound2-dev libjack-jackd2-dev ladspa-sdk libcurl4-openssl-dev libfreetype6-dev libx11-dev libxcomposite-dev libxcursor-dev libxext-dev libxinerama-dev libxrender-dev libwebkit2gtk-4.0-dev libglu1-mesa-dev mesa-common-dev
 mkdir build
 cd build
