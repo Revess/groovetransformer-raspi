@@ -253,7 +253,7 @@ def main():
     ap = argparse.ArgumentParser(description="Host MIDI↔OSC bridge")
     ap.add_argument("--pi-ip", default="127.0.0.1", help="Pi IP")
     ap.add_argument("--pi-port", type=int, default=9001, help="Pi OSC Port")
-    ap.add_argument("--listen", default="127.0.0.1", help="Bind IP")
+    ap.add_argument("--listen", default="0.0.0.0", help="Bind IP")
     ap.add_argument("--listen-port", type=int, default=9000, help="Listen Port")
     ap.add_argument("--addr", default="/midi", help="OSC address")
     ap.add_argument("--names", action="store_true", default=True, help="Show note names")

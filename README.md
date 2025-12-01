@@ -42,6 +42,16 @@ The system consists of two main Python scripts communicating over UDP:
 
 1. **Install Dependencies:**
 
+  ```sudo apt update
+  sudo apt install -y \
+    build-essential \
+    python3-dev python3-venv \
+    pkg-config \
+    cmake \
+    libasound2-dev \
+    libjack-jackd2-dev
+  ```
+
    ```bash
    pip install -r requirements.txt
    ```
