@@ -1,0 +1,4 @@
+numpy
+textual
+python-rtmidi
+python-osc
